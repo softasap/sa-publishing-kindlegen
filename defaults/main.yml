@@ -1,6 +1,6 @@
 ---
 # defaults file for sa-publishing-kindlegen
 
-role_dir: "{{role_path"}}"
+role_dir: "{{role_path}}"
 kindlegen_version: "2_9"
 kindlegen_dir: "/opt/kindlegen"
