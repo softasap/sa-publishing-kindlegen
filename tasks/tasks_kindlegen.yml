@@ -26,7 +26,6 @@
       - kindlegen
 
   - name: KindleGen | Link executable
-    unarchive:  src="/tmp/kindlegen.tar.gz"  dest="{{kindlegen_dir|default('/opt/kindlegen')}}" remote_src=True
     file:  src="{{kindlegen_dir|default('/opt/kindlegen')}}/kindlegen" dest="/usr/local/sbin/kindlegen"  owner="root"  state=link
     become: yes
     when: kindlegen_present | failed
