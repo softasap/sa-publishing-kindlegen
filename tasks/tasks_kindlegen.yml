@@ -7,7 +7,7 @@
       - kindlegen
     
   - name: KindleGen | download package
-    get_url: validate_certs="false" url="http://kindlegen.s3.amazonaws.com/kindlegen_linux_2.6_i386_v{{kindle_version|default('2_9'))}}.tar.gz" dest="/tmp/kindlegen.tar.gz"
+    get_url: validate_certs="false" url="http://kindlegen.s3.amazonaws.com/kindlegen_linux_2.6_i386_v{{kindle_version|default('2_9')}}.tar.gz" dest="/tmp/kindlegen.tar.gz"
     when: kindlegen_present | failed
     tags:
       -kindlegen
