@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: vyacheslav voronenko
-  description: installs lynis system security audit utility
+  description: kindlegen mobi publishing tool
   company: http://www.voronenko.info/
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
